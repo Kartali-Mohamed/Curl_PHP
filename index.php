@@ -8,11 +8,11 @@
 </head>
 <body>
     <form method="POST" action="submit-form.php" enctype="multipart/form-data">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title">
       
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+        <label for="desc">Description:</label>
+        <textarea rows="4" cols="50" name="desc" maxlength="250" ></textarea>
       
         <input type="submit" value="Submit">
       </form>
